@@ -4,7 +4,7 @@ namespace tabuleiro
     internal class Peca
     {
         public Posicao posicao { get; set; }
-        public Cor color { get; protected set; }
+        public Cor cor { get; protected set; }
         public int qteMovimentos {  get; protected set; }
         public Tabuleiro tab {  get; protected set; }   
 
@@ -12,7 +12,7 @@ namespace tabuleiro
         {
             this.posicao = null;
             this.tab = tab;
-            this.color = cor;
+            this.cor = cor;
             this.qteMovimentos = 0;
         }
     }
